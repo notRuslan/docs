@@ -267,7 +267,7 @@ Below you see the steps for creating a child node with CakePHP::
     // CakePHP 2.0 - Using SimpleXML
     $myXmlOriginal = '<?xml version="1.0"?><root><child>value</child></root>';
     $xml = Xml::build($myXmlOriginal);
-    $xml->root->addChild('young', 'new value');
+    $xml->addChild('young', 'new value');
 
     // CakePHP 2.0 - Using DOMDocument
     $myXmlOriginal = '<?xml version="1.0"?><root><child>value</child></root>';
